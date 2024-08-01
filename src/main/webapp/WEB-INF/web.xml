@@ -1,32 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
-  <servlet>
-    <description></description>
-    <display-name>Submitted</display-name>
-    <servlet-name>Submitted</servlet-name>
-    <servlet-class>com.example.Submitted</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>Submitted</servlet-name>
-    <url-pattern>/Submitted</url-pattern>
-  </servlet-mapping>
-  <display-name>bestprograming</display-name>
-  <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
-  </welcome-file-list>
-  <servlet>
-    <description></description>
-    <display-name>Submitted1</display-name>
-    <servlet-name>Submitted1</servlet-name>
-    <servlet-class>com.example.Submitted1</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>Submitted1</servlet-name>
-    <url-pattern>/Submitted1</url-pattern>
-  </servlet-mapping>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+    <display-name>BestProgramming</display-name>
+    <servlet>
+        <servlet-name>Submitted1</servlet-name>
+        <servlet-class>com.example.Submitted1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Submitted1</servlet-name>
+        <url-pattern>/submited</url-pattern>
+    </servlet-mapping>
+	
 </web-app>
