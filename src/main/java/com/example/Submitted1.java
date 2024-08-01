@@ -21,6 +21,6 @@ public class Submitted1 extends HttpServlet {
         out.println("Submmited Id is:"+id);
         out.println("Names are :"+names);
         
-        logger.info("Response sent for ID: " + id + " and Names: " + names);
+        logger.info("Data recived successfuly: " +id +" "+names);
     }
 }
